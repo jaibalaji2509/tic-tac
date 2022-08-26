@@ -18,7 +18,7 @@ function App() {
 
       <div className={`winner ${winner !== '' ? '' : 'shrink'}`}>
         <div className="winner-text">{winner}</div>
-        <button onClick={()=> resetBoard()}>Reaet Board</button>
+        <button onClick={()=> resetBoard()}>Reset Board</button>
       </div>
 
       <Board reset={reset} setReset={setReset} winner={winner} setWinner={setWinner}/>
